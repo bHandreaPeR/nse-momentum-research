@@ -1,0 +1,31 @@
+# Data (not redistributed; see README "Reproducing")
+code/bhavcopy_nse_monthly/
+code/nse_recent/
+code/data/
+code/groww_data/
+*.pkl
+
+# Generated outputs
+current_portfolio.csv
+code/backtest_results.csv
+
+# Credentials (Groww API token must never be committed)
+groww_token.txt
+*.env
+.env
+.env.*
+secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
